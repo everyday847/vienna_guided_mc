@@ -7,3 +7,6 @@ An initial hypothesis raised by players of the [Eterna](https://eternagame.org) 
 Unsurprisingly, while lowering this "delta" helped in some cases, one really significant effect was that more mutations would tend to have a deleterious effect. That's not too surprising: more mutations means more opportunities to mess something up. So how well were players doing? We needed a reasonably smart control that would attempt to make mutations in a principled way with the same strategy of "delta minimization."
 
 The scripts in this repository either run Metropolis Criterion Monte Carlo simulations on the 23S and 16S rRNA in a secondary structure aware fashion or analyze the results of those simulations.
+
+# Future work
+All of this was written before [Arnie](https://github.com/DasLab/arnie) existed and really should be implemented using that library.
